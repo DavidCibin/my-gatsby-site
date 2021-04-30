@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from "../navbar"
+import Footer from "../footer"
 import "./layout.css"
 
 export default function Layout({ children }) {
@@ -9,6 +10,7 @@ export default function Layout({ children }) {
       <main>
         {children}
       </main>
+      <Footer />
     </div>
   )
 }
