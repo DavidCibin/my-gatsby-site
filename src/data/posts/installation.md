@@ -1,7 +1,7 @@
 ---
 title: "Up and Running"
 date: "10/24/2020"
-author: "David Stinson"
+author: "David Cibin"
 description: "Details how to install the Gatsby CLI globally."
 ---
 

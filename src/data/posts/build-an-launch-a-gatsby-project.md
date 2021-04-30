@@ -1,7 +1,7 @@
 ---
 title: "Build and Launch a Gatsby Project"
 date: "10/26/2020"
-author: "David Stinson"
+author: "David Cibin"
 description: "Reviews how to build and launch a project, and gives a brief overview of the Gatsby file structure."
 ---
 

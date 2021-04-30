@@ -1,7 +1,7 @@
 ---
 title: "What's the Magic"
 date: "10/25/2020"
-author: "David Stinson"
+author: "David Cibin"
 description: "A short intro to all the cool things you can do with Gatsby, and what makes it magic."
 ---
 

@@ -6,6 +6,7 @@ body {
   font-family: Fira Sans;
   font-size: 1.1rem;
   margin: 0;
+  background: #ccc;
 }
 
 #page-container {
@@ -19,4 +20,20 @@ body {
 
 #page-container > main {
   flex-grow: 1;
+}
+
+.navbar-module--nav--12f1H a {
+  color: rgb(1, 68, 29);
+  background-color: #c1c1c1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(163, 163, 163);
+  text-decoration: none;
+}
+
+.navbar-module--nav--12f1H h3 {
+  color: rgb(1, 68, 29);
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
 }

@@ -5,7 +5,7 @@ import * as styles from "./navbar.module.css"
 export default function NavBar() {
   return (
     <nav className={styles.nav}>
-      <h3 id={styles.siteTitle}>my site?!</h3>
+      <h3 id={styles.siteTitle}>GATSBY</h3>
       <Link to="/">Go home!</Link> 
       <Link to="/contact">Contact Me</Link> 
       <Link to="/my-random-pic">A random pic</Link>
