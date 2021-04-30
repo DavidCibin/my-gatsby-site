@@ -10,3 +10,8 @@
 .postDescription {
   margin-top: .6rem;
 }
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
