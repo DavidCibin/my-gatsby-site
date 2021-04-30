@@ -7,7 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: `A website on the internet`,
-    author: `David Stinson`,
+    author: "David Stinson",
     description: `This is my site, it's cool`
   },
   plugins: [
@@ -18,6 +18,13 @@ module.exports = {
           families: ['Fira Sans', 'Raleway']
         }
       }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `gnotes`,
+        path: `${__dirname}/src/data/posts/`,
+      },
     },
   ],
 }
