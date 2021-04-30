@@ -11,7 +11,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Fira Sans', "Raleway"]
+          families: ['Fira Sans', 'Raleway']
         }
       }
     },
