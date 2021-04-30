@@ -5,7 +5,11 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: `A website on the internet`,
+    author: `David Stinson`,
+    description: `This is my site, it's cool`
+  },
   plugins: [
     {
       resolve: 'gatsby-plugin-web-font-loader',
