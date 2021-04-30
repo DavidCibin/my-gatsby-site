@@ -11,7 +11,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Droid Serif']
+          families: ['Fira Sans', "Raleway"]
         }
       }
     },
