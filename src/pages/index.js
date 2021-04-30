@@ -7,7 +7,7 @@ export default function Home({data}) {
   return (
     <Layout>
       <Header headerText={data.site.siteMetadata.title}/>
-      Hello, friend.
+      <pre>{JSON.stringify(data, null, 4)}</pre>
     </Layout>
   )
 }
@@ -18,6 +18,20 @@ export const query = graphql`
       siteMetadata {
         title
       }
+    }
+    allMarkdownRemark {
+      edges {
+        node {
+          id
+          frontmatter {
+            author
+            date
+            title
+            description
+          }
+        }
+      }
+      totalCount
     }
   }
 `

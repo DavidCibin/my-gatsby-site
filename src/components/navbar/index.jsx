@@ -8,7 +8,8 @@ export default function NavBar() {
       <h3 id={styles.siteTitle}>my site?!</h3>
       <Link to="/">Go home!</Link> 
       <Link to="/contact">Contact Me</Link> 
-      <Link to="/my-random-pic">A random pic</Link> 
+      <Link to="/my-random-pic">A random pic</Link>
+      <Link to="/my-posts">File Info</Link>
     </nav>
   )
 }
