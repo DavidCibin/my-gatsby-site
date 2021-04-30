@@ -6,8 +6,6 @@ import Layout from "../components/layout"
 export default function Home() {
   return (
     <Layout>
-      <Link to="/contact">Contact Me</Link> 
-      <Link to="/my-random-pic">A random pic</Link> 
       <Header headerText="Index: A place to be."/>
       Hello, friend.
     </Layout>
